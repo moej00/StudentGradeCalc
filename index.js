@@ -27,6 +27,7 @@ add.addEventListener("click", function (e) {
     subjectname.name = "inputt" + i;
     subjectname.type = "text";
     subjectname.id = "inputt" + i;
+    subjectname.style.textAlign = "center";
     subjectname.placeholder = "Subject Name";
     div.appendChild(subjectname);
     sbjarr.push(subjectname.name);
@@ -36,6 +37,7 @@ add.addEventListener("click", function (e) {
     grade.id = "inputn" + i;
     grade.type = "number";
     grade.placeholder = "Grade";
+    grade.style.textAlign = "center";
     div.appendChild(grade);
 
     idarr.push(grade.id);
