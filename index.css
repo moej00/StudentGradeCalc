@@ -1,0 +1,87 @@
+#inputn {
+  width: 100px;
+  padding: 5px;
+  display: flex;
+}
+
+.btns {
+  margin: 20px;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+#results,
+#Add,
+#addNew {
+  border-radius: 25px;
+  background-color: transparent;
+  margin: 10px;
+}
+#results:hover {
+  background-color: green;
+  color: white;
+}
+#Add:hover {
+  background-color: rgba(57, 57, 255, 0.993);
+  color: white;
+}
+
+#addNew:hover {
+  background-color: red;
+  color: white;
+}
+#inputn {
+  padding: 200px;
+  margin: 50px;
+}
+.container {
+  border: 1px solid black;
+  display: block;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: honeydew;
+}
+#avg {
+  width: 80%;
+  text-align: center;
+  font-weight: bold;
+}
+
+td {
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+table {
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid black;
+  width: fit-content;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+#ginput {
+  display: none;
+  margin: auto;
+  width: 30%;
+  border: 1px solid black;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: honeydew;
+}
